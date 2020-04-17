@@ -1,0 +1,30 @@
+{
+	"name": "slack-bot",
+	"version": "1.0.0",
+	"description": "slack bot for organizational updates",
+	"main": "index.js",
+	"scripts": {
+		"dev": "babel-node src/index.js",
+		"build": "babel src -d build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"axios": "^0.19.2",
+		"babel-polyfill": "^6.26.0",
+		"body-parser": "^1.18.2",
+		"config": "^1.28.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.16.2",
+		"morgan": "^1.9.0",
+		"request": "^2.88.2",
+		"tracer": "^0.8.11"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-register": "^6.26.0"
+	},
+	"author": "",
+	"license": "ISC"
+}
